@@ -7,7 +7,14 @@ let message = ""
 let sum = firstCard + secondCard
 
 function getRandomCard() {
-    return Math.floor(Math.random()*13)+1
+    let randomcards=Math.floor(Math.random()*13)+1
+    if (randomcards>10){
+        return 10
+    }else if (randomcards===1){
+        return 11
+    }else{
+        return randomcards
+    }
 }
 
 function startGame() {
