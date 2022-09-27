@@ -1,3 +1,4 @@
+
 let firstCard = getRandomCard()
 let secondCard = getRandomCard()
 let cards = [firstCard,secondCard]
